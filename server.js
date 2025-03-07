@@ -163,9 +163,6 @@ const searchAndFilter = async () => {
   }
 };
 
-// Supposons que vous avez un personId existant pour cette recherche
-const personId = '1265'; // Exemple d'ID
-
 // Trouver une personne par _id
 const findPersonByIdAsync = async (id) => {
   try {
@@ -177,4 +174,4 @@ const findPersonByIdAsync = async (id) => {
 };
 
 // Appel de la fonction
-findPersonByIdAsync(personId);
+findPersonByIdAsync();
